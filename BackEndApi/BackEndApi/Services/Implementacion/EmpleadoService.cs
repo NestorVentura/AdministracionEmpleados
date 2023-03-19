@@ -87,9 +87,6 @@ namespace BackEndApi.Services.Implementacion
                 _dbContext.Empleados.Remove(modelo);
                 await _dbContext.SaveChangesAsync();
                 return true;
-
-
-
             }
             catch (Exception ex)
             {
